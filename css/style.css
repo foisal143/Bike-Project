@@ -1,0 +1,70 @@
+.bk-color {
+  background-color: #264653;
+}
+.btn-color {
+  background-color: #e76f51;
+  color: white;
+}
+.btn-colo:hover {
+  background-color: #e76f51;
+}
+.color {
+  color: #e76f51;
+}
+.w-80 {
+  width: 100%;
+}
+.fs {
+  font-size: 12px;
+}
+.best {
+  width: 60px;
+  margin: 0px auto;
+}
+.mar {
+  position: relative;
+  left: 70px;
+}
+.fit-img {
+  width: 150px;
+  height: 150px;
+}
+.w-bike-85 {
+  width: 85%;
+}
+.font-size {
+  font-size: 3.4rem;
+}
+.footer-color {
+  background-color: #0b0d17;
+}
+.list-style {
+  list-style-type: none;
+}
+.ic-font {
+  font-size: 2rem;
+}
+.w-foot {
+  width: 37%;
+}
+.m-l {
+  margin-left: 350px;
+}
+@media (max-width: 576px) {
+  .btn-space {
+    width: fit-content;
+    margin-left: 150px;
+  }
+  .ul-sm li {
+    margin-left: 150px;
+  }
+  .small {
+    margin-right: 30px;
+  }
+  .w-foot {
+    width: 70%;
+  }
+  .m-l {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,45 @@
+header {
+  background: url(/img/bg-bike.png);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(11, 11, 11, 0.4);
+  background-blend-mode: darken;
+}
+.tg {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.st {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Poppins;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+}
+@media (max-width: 576px) {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    height: 100vh;
+  }
+
+  .zin {
+    z-index: 5;
+  }
+  .st {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
